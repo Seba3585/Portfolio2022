@@ -1,0 +1,70 @@
+.header {
+width: 100px;
+height: 100vh;
+position: fixed;
+background-color: rgb(4, 8, 18)
+
+}
+
+
+.option-main .options {
+    display: flex;
+    margin: -2px auto 0 auto;
+
+}
+.nav_display .nav-list {
+    position: fixed;
+    transform: rotate(-90deg) translateX(-100%);
+    transform-origin: left top;
+    width: 100vh;
+}
+.nav_display .nav-list .option-main {
+    display: flex;
+}
+
+.options .link {
+    font-weight: 400;
+    font-size: .9rem;
+    cursor: pointer;
+    height: 100%;
+    line-height: 100px;
+    padding: 0 1rem;
+    position: relative;
+    rotate: (-45deg);
+}
+
+.options .link:hover {
+   color: var(--link-active);
+}
+
+.top-nav {
+    position: absolute;
+    top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav_display .title h2 {
+    color: var(--primary-color);
+    margin-left: 35%;
+
+}
+
+.light-mode span {
+    color: #fff ;
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    font-size: 0.8rem;
+    margin-left: 15%;
+}
+
+
+
+
+.options {
+    padding-right: 5rem;
+}

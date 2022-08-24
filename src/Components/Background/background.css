@@ -1,0 +1,55 @@
+.background-content {
+    display: flex;
+    width: 80%;
+    margin-left: 10vw;
+    margin-bottom: 20rem;
+    column-gap: 5rem;
+    color: var(--heading-color);
+    font-weight: 100;
+
+
+}
+
+.back-1, .back-2 {
+    width: 50%;
+    text-align: center;
+    height: 30vh;
+
+
+}
+
+.education, .experience {
+    margin-bottom: 1rem;
+}
+
+.exp-content {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: left;
+padding-top: 1rem;
+padding-bottom: 1rem;
+background: radial-gradient(circle, rgba(145,200,238,1) 10%, rgba(124,69,252,1) 37%) no-repeat;
+background-size:100% 1px ;
+}
+.exp-content h4 {
+    margin-bottom: 0.5rem;
+}
+.exp-content div {
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+.background-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+}
+.back-1 {
+    height: 100vh;
+
+
+}
+}
