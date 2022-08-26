@@ -171,17 +171,17 @@ text-align: center;
     
     }
     .wpp, .mail {
-        color:rgb(20, 14, 6);
-        padding: 35px 55px;
+        color:antiquewhite;
+        padding: 35px 25px;
         background-color: var(--testimonial-bg);
         margin-bottom: 3rem;
         border-radius: 10px;
         margin-top: 5rem;
-        margin-left: 10rem;
+        margin-left:5rem;
         }
         input,
         textarea {
-            padding: 17px 60px;
+            padding: 17px 30px;
         }
         .contact{
             margin-left: 8rem;

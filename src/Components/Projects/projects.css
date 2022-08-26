@@ -50,11 +50,15 @@
 }
 
 @media (max-width: 1024px) {
+
+    #id h2 {
+        font-size: 0.25vw;
+    }
     .project-wrap div {
         flex-direction: column;
         
     }
     .project-content div {
-        width: 15rem;
+        width: 10rem;
     }
 }

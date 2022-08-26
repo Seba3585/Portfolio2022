@@ -48,4 +48,9 @@
         width: 100%;
         margin-left: 3rem;
     }
+    .slider-content {
+        width: 50%;
+        margin: auto;
+    
+    }
 }

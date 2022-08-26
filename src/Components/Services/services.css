@@ -45,3 +45,14 @@
     margin-bottom: 30px;
     margin-top: 1rem;
 }
+
+@media (max-width: 1024px) {
+    #services .container .content h2{
+        font-size: 4vw ;
+    }
+
+    #services .container .content{
+        margin-top: 5rem;
+    }
+}
+
