@@ -6,6 +6,7 @@
     display: flex;
     /* justify-content: space-between; */
     margin-bottom: 5rem;
+    width: 100%;
 
 }
 
@@ -124,6 +125,7 @@
     }
   }
   @media (max-width: 1024px) {
+ 
     .content-img {
       display: inline-block; 
       position: relative; 
@@ -149,12 +151,9 @@
   }
     .hero-btn {
       position: absolute;
-      margin-top: 100px ;
+      margin-top: 70px ;
       display: flex;
       align-items: center;
       column-gap: 2rem;
     }
- 
-
-
   }

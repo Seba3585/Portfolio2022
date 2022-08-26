@@ -61,4 +61,8 @@
     .project-content div {
         width: 10rem;
     }
+
+    .work-content {
+        margin-left: 7rem;
+    }
 }

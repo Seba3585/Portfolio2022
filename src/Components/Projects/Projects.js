@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <section id='work'>
-        <div>
+        <div className='work-content'>
             <div className='slider-title'>
                 <h6 className='subtitle'>Recent work</h6>
                 <h2>Projects</h2>

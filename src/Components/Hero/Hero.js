@@ -16,7 +16,7 @@ const Hero = () => {
                     Growing by the day in order to create better solutions
                     </p>
                     <div className='hero-btn'>
-                            <a href="#">
+                            <a href="#projects">
                                 <span>More about me</span>
                                 <div className="liquid"></div>
                             </a>
