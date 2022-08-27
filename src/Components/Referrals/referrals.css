@@ -11,7 +11,7 @@
 }
 
 .slider-item {
-   background: var(--testimonial-bg); 
+   background: var(--testimonial-bg);
    padding: 40px 30px;
    border-radius: .5rem;
    text-align: center;
@@ -46,11 +46,9 @@
 @media (max-width: 1024px) {
     #referral .container {
         width: 100%;
-        margin-left: 3rem;
     }
     .slider-content {
         width: 50%;
         margin: auto;
-    
     }
 }

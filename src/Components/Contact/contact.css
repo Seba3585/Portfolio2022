@@ -30,7 +30,6 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 .styled-input {
     float: left;
-    /* width: 293px; */
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
@@ -39,7 +38,6 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input label {
     color: #999;
-    /* padding: 1.3rem 30px 1rem 30px; */
     padding-left: 1rem;
     position: absolute;
     top: 10px;
@@ -50,7 +48,6 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 
 .styled-input.wide {
-    /* width: 293px; */
     max-width: 100%;
 }
 
@@ -83,9 +80,7 @@ textarea {
 }
 
 .input-container {
-    /* width: 650px; */
     max-width: 100%;
-    /* margin: 20px auto 25px auto; */
 }
 .row {
     text-align: center;
@@ -95,7 +90,6 @@ textarea {
 .submit-btn {
     padding: 7px 35px;
     border-radius: 60px;
-    display: inline-block;
     background-color: #4b8cfb;
     color: white;
     font-size: 18px;
@@ -153,13 +147,6 @@ border-radius: 10px;
 text-align: center;
 }
 
-@media (max-width: 768px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
 @media (max-width: 1024px) {
     .display-contact {
         display: flex;
@@ -167,8 +154,8 @@ text-align: center;
         justify-content: center;
         align-items: center;
 
-    
-    
+
+
     }
     .wpp, .mail {
         color:antiquewhite;

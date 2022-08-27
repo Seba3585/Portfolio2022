@@ -125,6 +125,10 @@
     }
   }
   @media (max-width: 1024px) {
+    .container {
+      width: 100%;
+    }
+ 
  
     .content-img {
       display: inline-block; 
