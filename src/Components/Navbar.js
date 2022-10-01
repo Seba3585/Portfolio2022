@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, useHistory, useLocation } from 'react-router-dom';
-import {FaBrain} from 'react-icons/fa'
 import './navbar.css'
-
 
 
 
@@ -13,8 +11,11 @@ const Navbar = () => {
             <div className='nav_display'>
                     <div className='top-nav'>
                         <div className='title'>
-                            <div><FaBrain/></div>
+                            <h2>SGF</h2>
                         </div>
+                        {/* <div className='light-mode'>
+                            <span><i className="ri-sun-line"></i> Light Mode</span>
+                        </div> */}
                     </div>
                     <div className='nav-list'>
                         <div className='option-main'>

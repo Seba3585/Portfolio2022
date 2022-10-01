@@ -47,10 +47,9 @@ background-color: rgb(4, 8, 18)
 
 }
 
-.nav_display .title div {
+.nav_display .title h2 {
     color: var(--primary-color);
-    margin-left: 50%;
-    font-size: 3rem;
+    margin-left: 35%;
 
 }
 
